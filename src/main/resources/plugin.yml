@@ -1,0 +1,12 @@
+name: CustomSpawn
+version: 1.0
+main: cz.tvojeserver.customspawn.CustomSpawn
+api-version: '1.20'
+commands:
+  setspawn:
+    description: Nastavi hlavni spawn serveru
+    usage: /setspawn
+    permission: customspawn.admin
+  spawn:
+    description: Teleportuje na spawn
+    usage: /spawn
